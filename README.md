@@ -21,11 +21,13 @@ A RESTful API built using Django and Django REST Framework that allows users to 
 - GET /admin/accounts/approved/ – View all approved accounts
 
 ## 🧱 Technologies Used
-- Layer	Technology
-- Backend	Python 3.9+, Django, DRF
-- Database	SQLite (dev) / PostgreSQL (prod)
-- API Framework	Django REST Framework
-- Auth System	Django's default + DRF Token Auth
+| Layer         | Technology                                     |
+| ------------- | ---------------------------------------------- |
+| Backend       | Python 3.9+, Django, Django REST Framework     |
+| Database      | SQLite (development), PostgreSQL (production)  |
+| API Framework | Django REST Framework                          |
+| Auth System   | Django default authentication + DRF Token Auth |
+
 
 ## 🔧 Testing the API
 - You can test API endpoints using any of the following tools:
